@@ -1,0 +1,168 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(4, 36, 13);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.main
+{
+    height: inherit;
+    width: inherit;
+    color: white;
+}
+header
+{
+    height:3rem;
+    width: 100%;
+    /* background-color: rgb(161, 25, 25); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+.home
+{
+
+}
+
+nav
+{
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: white; */
+    font-size: 1.4rem;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: white;
+}
+
+nav span
+{
+    padding: 0.1rem 0.6rem;
+    background-color: gold;
+    border-radius: 0.5rem;
+    /* margin-top: 0.5rem; */
+}
+
+main
+{
+    /* margin-top: 3rem; */
+    /* background-color: white; */
+    /* border: 2px white solid; */
+    /* height: 100vh; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about
+{
+    background-color: #355E3B;
+    height:25rem;
+    width: 92%;
+    margin:3rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    padding:4.5rem;
+    display: flex;
+    border: solid 2px #398e46;
+}
+
+.intro
+{
+    /* background-color: aqua; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.introBox1
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.introBox2
+{
+    margin-top: 0.7rem;
+    /* background-color: rgb(255, 255, 4); */
+    display: flex;
+    width:50%;
+    height: 5rem;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    /* word-wrap: break-word; */
+    /* word-break: break-word; */
+    white-space: normal;
+}
+
+.introBox3
+{
+    margin-top: 0.7rem;
+
+}
+
+.hire
+{
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    background-color: gold;
+    border-radius: 0.5rem;
+}
+
+.projects
+{
+    /* height: 5rem; */
+    width: 92%;
+    margin:3rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    padding:4rem;
+    display: flex;
+    /* background-color: red; */
+    flex-direction: column;
+    border: solid 2px #398e46;
+}
+
+.projects ul span
+{
+    font-size: 2.5rem;
+}
+
+.projects ul li
+{
+    margin: 0.7rem 0;
+    font-size: 1.5rem;
+}
+
+.projects li a
+{
+    margin-left: 1rem;
+    text-decoration: none;
+    padding: 0.2rem 0.4rem;
+    color: black;
+    background-color: gold;
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+}
